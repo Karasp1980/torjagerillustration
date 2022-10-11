@@ -99,6 +99,64 @@ body{
         color: white;
         
       }
+
+      /* about section*/
+    
+      #about{
+        height: 450px;
+        background-color: #A43F2D;
+        border: 5px groove;
+        color: white;
+        margin: 80px;
+        padding-top: 30px;
+       
+     }
+    
+     #left-about{
+        padding-top: 20px;
+        width: 50%;
+        float: left;
+     }
+    
+     #right-about{
+        padding-top: 0;
+        width: 50%;
+        float: right;
+        
+     }
+    
+     .right-about-text{
+      
+        width: 80%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+        text-align: left;
+        font-family: 'Courier New', Courier, monospace;
+     }
+    
+     #description{
+        text-align: center;
+        margin: 30px;
+        font-size: 150%;
+     }
+    
+     #circle-container{
+        width: 250px;
+        height: 250px;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 0 auto;
+     }
+    
+     #circle-cover-bg{
+        background: url('../images/torjager.jpeg') no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+     }
     
   
     
