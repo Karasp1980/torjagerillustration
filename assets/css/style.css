@@ -209,6 +209,34 @@ body{
   }
   
 
+ /*contact section*/
+
+ .contact-section {
+  clear: left;
+  background: url("../images/jatten.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 1700px; 
+  
+  
+    /* Animates zoom effect on loading the page */
+    animation-name: giant-zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+
+/* Creates the level of zoom for giant image */
+@keyframes giant-zoom {
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1);
+    }
+    
+}
+
   
   /* contact form*/
  
@@ -275,64 +303,4 @@ border-radius: 7px;
 }
 
 
-  /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 500px){
-
-  #about{
-      margin: 0 auto;
-      padding: 0;
-      height: 1200px;
-  }
   
-
-  #left-about{
-    
-    width: 33%;
-    float: none;
-    margin: 0 auto;
- }
-
- #center-about{
-  
-  width: 33%;
-  margin: 0 auto;
-  
-}
- #right-about{
-    
-    width: 33%;
-    float: none;
-    
- }
-
- .right-about-text, .center-about-text{
-  
-    width: 80%;
-    float: none;
-    line-height: 20px; 
-    margin-bottom: 50px;
-    text-align: left;
-    font-family: 'Lato', sans-serif;
- }
-
- #description{
-   
-    margin: 0;
-    
- }
-
- #circle-container{
-   
-    margin: 0 center;
- }
-
- #circle-cover-bg{
-    margin: 0 center;
- }
-
-
-}
-
-
-
- 
