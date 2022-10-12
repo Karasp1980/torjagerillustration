@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 
 *{
@@ -100,63 +100,75 @@ body{
         
       }
 
-      /* about section*/
+   /* about section*/
+
+   #about{
+    height: 450px;
+    background-color: #A43F2D;
+    border: 5px groove;
+    color: white;
+    margin: 80px;
+    padding-top: 30px;
+   
+   
+ }
+
+ #left-about{
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+ }
+
+ #center-about{
+  
+    padding-top: 0;
+    width: 33%;
+    margin: 0 auto;
+ }
+
+ #right-about{
+    padding-top: 0;
+    width: 33%;
+    float: right;
     
-      #about{
-        height: 450px;
-        background-color: #A43F2D;
-        border: 5px groove;
-        color: white;
-        margin: 80px;
-        padding-top: 30px;
-       
-     }
-    
-     #left-about{
-        padding-top: 20px;
-        width: 50%;
-        float: left;
-     }
-    
-     #right-about{
-        padding-top: 0;
-        width: 50%;
-        float: right;
-        
-     }
-    
-     .right-about-text{
-      
-        width: 80%;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-        text-align: left;
-        font-family: 'Courier New', Courier, monospace;
-     }
-    
-     #description{
-        text-align: center;
-        margin: 30px;
-        font-size: 150%;
-     }
-    
-     #circle-container{
-        width: 250px;
-        height: 250px;
-        border-style: solid;
-        border-color: #ccc;
-        border-width: 1px;
-        border-radius: 50%;
-        margin: 0 auto;
-     }
-    
-     #circle-cover-bg{
-        background: url('../images/torjager.jpeg') no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-     }
+ }
+
+ .right-about-text, .center-about-text{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+  
+ }
+
+ #description{
+    text-align: center;
+    margin: 30px;
+    font-size: 150%;
+ }
+
+ #circle-container{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+ }
+
+ #circle-cover-bg{
+    background: url('../images/torjager.jpeg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+ }
+
+
     
   
     
@@ -198,5 +210,129 @@ body{
   
 
   
+  /* contact form*/
+ 
+ .contact-form {
+  margin: 150px 10% 0 0px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+}
+
+.contact-form > h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: white;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.text-input:hover, #message:hover{
+  border-color:  #A43F2D;
+}
+
+.contact-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color:  #A43F2D;
+  color: white;
+  display: block;
+}
+
+.contact-button:hover {
+  background-color: white;
+  color:  #A43F2D;
+}
+
+#message{
+  background-color: rgba(60, 60, 60, 0.1);
+  margin-top: 10px;
+  border: 1px solid white;
+}
+
+
+input[type=submit] {
+margin-top: 20px;
+margin-left: 0.75rem;
+padding: 0.75rem;
+background-color: #A43F2D;
+color: white;
+border: groove;
+border-radius: 7px;
+}
+
+
+  /* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 500px){
+
+  #about{
+      margin: 0 auto;
+      padding: 0;
+      height: 1200px;
+  }
+  
+
+  #left-about{
+    
+    width: 33%;
+    float: none;
+    margin: 0 auto;
+ }
+
+ #center-about{
+  
+  width: 33%;
+  margin: 0 auto;
+  
+}
+ #right-about{
+    
+    width: 33%;
+    float: none;
+    
+ }
+
+ .right-about-text, .center-about-text{
+  
+    width: 80%;
+    float: none;
+    line-height: 20px; 
+    margin-bottom: 50px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+ }
+
+ #description{
+   
+    margin: 0;
+    
+ }
+
+ #circle-container{
+   
+    margin: 0 center;
+ }
+
+ #circle-cover-bg{
+    margin: 0 center;
+ }
+
+
+}
+
+
 
  
