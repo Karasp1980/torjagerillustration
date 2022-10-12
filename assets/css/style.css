@@ -88,7 +88,7 @@ body{
               transform: scale(0.8);
           }
           to{
-              transform: scale(1);
+              transform: scale(1.0pyt);
           }
           
       }
@@ -107,7 +107,7 @@ body{
     background-color: #A43F2D;
     border: 5px groove;
     color: white;
-    margin: 80px;
+    margin: 100px;
     padding-top: 30px;
    
    
@@ -134,12 +134,11 @@ body{
  }
 
  .right-about-text, .center-about-text{
-    margin: 0;
-    padding: 0;
+    margin-top: 30px;
     width: 80%;
     float: left;
     line-height: 20px;
-    clear: both;
+    /*clear: both;*/
     margin-bottom: 50px;
     text-align: left;
     font-family: 'Lato', sans-serif;
