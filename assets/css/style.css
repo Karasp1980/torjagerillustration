@@ -33,7 +33,6 @@ body{
   
   nav{
     border: groove;
-   
   }
   
   nav ul {
@@ -49,8 +48,8 @@ body{
       line-height: 40px;
       display: inline-block;
       color: white;
-      padding: 0 40px 0 40px;  
-      margin: 0 80px 0 80px;
+      padding: 0 120px 0 120px; 
+      margin: 0;
     }
      
     nav a {
@@ -100,6 +99,42 @@ body{
         
       }
 
+/* books section*/
+
+#books{
+  max-height: auto;
+  margin: 0 100px 0 100px;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#books div {
+  color: #A43F2D;
+  text-align: center;
+  
+}
+
+
+
+.lyktgubben{
+  background: url("../images/lyktgubben.jpeg") no-repeat center center;
+  width: 33%;
+}
+
+.bestar{
+  background: url("../images/bestar.jpeg") no-repeat center center;
+  width: 33%;
+}
+
+.vasenivartid{
+  background: url("../images/vasen-i-var-tid.jpeg") no-repeat center center;
+  width: 33%;
+}
+     
+
+
    /* about section*/
 
    #about{
@@ -108,38 +143,37 @@ body{
     border: 5px groove;
     color: white;
     margin: 100px;
-    padding-top: 30px;
-   display: flex;
-   justify-content: space-around;
-   
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around;
  }
 
  #left-about{
-    padding-top: 40px;
+    padding-top: 3%;
     width: 33%;
-    /*float: left;*/
+  
  }
 
  #center-about{
   
     padding-top: 0;
     width: 33%;
-    /*margin: 0 auto;*/
+
  }
 
  #right-about{
     padding-top: 0;
     width: 33%;
-    /*float: right;*/
+    
     
  }
 
  .right-about-text, .center-about-text{
-    margin-top: 40px;
+    margin-top: 80px;
     width: 80%;
     /*float: left;*/
     line-height: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-align: left;
     font-family: 'Lato', sans-serif;
   
@@ -147,7 +181,7 @@ body{
 
  #description{
     text-align: center;
-    margin: 30px;
+    padding-bottom: 5%;
     font-size: 150%;
  }
 
@@ -316,11 +350,47 @@ border-radius: 7px;
 }
 
 
+/* For screens sizes from 1024px wide and down */
+@media screen and (max-width: 1024px){
+  .header-background{
+    background-image: none;     
+}
+
+#welcome{
+  height: 600px;
+}
+
+#welcome h1 {
+  padding-top: 60px;
+  font-size: 100%;
+}
+
+.header-background{
+background-image: none;
+}
+
+nav li {
+padding: 0 60px 0 60px;
+}
+
+#about{
+  margin: 2%;
+  }
+
+}
+
 /* For screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
+
+  
+  #books{
+    flex-direction: column;
+    margin: 1%;
+    }
+
   #about{
   flex-direction: column;
-  margin: 10%;
+  margin: 1%;
   }
   
   #center-about, #right-about{
@@ -338,12 +408,78 @@ border-radius: 7px;
   text-align: center;
  }
 
-  #circle-container{
+  #circle-containe{
     width: 200px;
-    height: 200px;
-    
- }
+    height: 200px;  
  
+  }
+
+}
+
+/* For screens sizes from 768x wide and down */
+@media screen and (max-width: 768px){
+#welcome{
+  height: 480px;
+}
+
+#welcome h1 {
+  padding-top: 50px; 
+}
+
+.header-background{
+background-image: none;
+}
+
+nav li {
+padding: 0 20px 0 20px;
+}
+
+}
+
+/* For screens sizes from 480x wide and down */
+@media screen and (max-width: 481px){
+  #welcome{
+    height: 300px;
+  }
+  
+  #welcome h1 {
+    padding-top: 20px; 
+  }
+  
+  
+  nav li {
+  padding: 0 10px 0 10px;
+  }
 
   }
 
+
+  /* For screens sizes from 480x wide and down */
+@media screen and (max-width: 481px){
+  #welcome{
+    height: 300px;
+  }
+  
+  #welcome h1 {
+    padding-top: 20px; 
+  }
+  
+  
+  nav li {
+  padding: 0 10% 0 10%;
+  }
+
+  }
+
+  /* For screens sizes from 320 wide and down */
+@media screen and (max-width: 320px){
+  #welcome{
+    height: 200x;
+  }
+  
+   
+  nav li {
+  padding: 0;
+  }
+
+  }
