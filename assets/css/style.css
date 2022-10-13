@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-
 *{
-    margin: 0;
-    padding: 0;
-    border: none;
-    
+  margin: 0;
+  padding: 0;
+  border: none;
+ 
 }
+
 
 body{
   
@@ -71,7 +71,7 @@ body{
           background-size: cover;
           background-position: center;
           height: 1200px;
-          width: 100%;
+          max-width: 100%;
          
           
     
@@ -103,42 +103,42 @@ body{
    /* about section*/
 
    #about{
-    height: 450px;
+    height: auto;
     background-color: #A43F2D;
     border: 5px groove;
     color: white;
     margin: 100px;
     padding-top: 30px;
-   
+   display: flex;
+   justify-content: space-around;
    
  }
 
  #left-about{
-    padding-top: 20px;
+    padding-top: 40px;
     width: 33%;
-    float: left;
+    /*float: left;*/
  }
 
  #center-about{
   
     padding-top: 0;
     width: 33%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
  }
 
  #right-about{
     padding-top: 0;
     width: 33%;
-    float: right;
+    /*float: right;*/
     
  }
 
  .right-about-text, .center-about-text{
-    margin-top: 30px;
+    margin-top: 40px;
     width: 80%;
-    float: left;
+    /*float: left;*/
     line-height: 20px;
-    /*clear: both;*/
     margin-bottom: 50px;
     text-align: left;
     font-family: 'Lato', sans-serif;
@@ -316,4 +316,34 @@ border-radius: 7px;
 }
 
 
+/* For screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+  #about{
+  flex-direction: column;
+  margin: 10%;
+  }
   
+  #center-about, #right-about{
+    
+    width: 100%; 
+    margin-left: 10%; 
+    
+ }
+
+ #left-about{
+  width: 100%;
+ }
+
+ .left-about-text, .center-about-text, .right-about-text{
+  text-align: center;
+ }
+
+  #circle-container{
+    width: 200px;
+    height: 200px;
+    
+ }
+ 
+
+  }
+
