@@ -102,7 +102,7 @@ body{
 /* books section*/
 
 #books{
-  max-height: auto;
+  height: auto;
   margin: 0 100px 0 100px;
   padding-top: 0;
   display: flex;
@@ -113,24 +113,28 @@ body{
 #books div {
   color: #A43F2D;
   text-align: center;
-  
+  padding: 5%;
 }
 
 
 
 .lyktgubben{
-  background: url("../images/lyktgubben.jpeg") no-repeat center center;
+  /*background: url("../images/lyktgubben.jpeg") no-repeat center center;*/
   width: 33%;
 }
 
 .bestar{
-  background: url("../images/bestar.jpeg") no-repeat center center;
+  /*background: url("../images/bestar.jpeg") no-repeat center center;*/
   width: 33%;
 }
 
 .vasenivartid{
-  background: url("../images/vasen-i-var-tid.jpeg") no-repeat center center;
-  width: 33%;
+ /*background: url("../images/vasen-i-var-tid.jpeg") no-repeat center center;*/
+ width: 33%;
+}
+
+#books h4{
+  padding-top: 10%;
 }
      
 
@@ -210,7 +214,7 @@ body{
   footer {
       color:white;
       background-color: #A43F2D;
-      padding: 1em;
+      padding: 1%;
       text-align: center;
       width: 100%;
       position: fixed;
@@ -218,27 +222,28 @@ body{
       right: 0;
       z-index: 4;
       border: groove;
-      height: 4%
+      height: 5%;
   }
 
   
   footer > span {
     font-size: 100%;
-    text-align: right;
+    /*text-align: right;*/
   
   }
   
   footer > a {
     color: white;
     text-decoration: none;
-    padding: 0 100px;
-    font-size: 1rem;
+    padding: 0 10%;
+    font-size: 100%;
   }
   
   footer > p {
   
-    font-size: 0.5rem;
+    font-size: 50%;
     text-align: center;
+    padding-top: 0.5%;
   }
   
   
@@ -385,7 +390,12 @@ padding: 0 60px 0 60px;
   
   #books{
     flex-direction: column;
-    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .lyktgubben, .bestar, .vasenivartid{
+      padding: 5%;
     }
 
   #about{
@@ -393,8 +403,7 @@ padding: 0 60px 0 60px;
   margin: 1%;
   }
   
-  #center-about, #right-about{
-    
+  #center-about, #right-about{  
     width: 100%; 
     margin-left: 10%; 
     
@@ -434,6 +443,16 @@ nav li {
 padding: 0 20px 0 20px;
 }
 
+#photo{
+  column-count: 1;
+}
+
+footer > a{
+  padding: 0 8%;
+}
+
+
+
 }
 
 /* For screens sizes from 480x wide and down */
@@ -450,29 +469,18 @@ padding: 0 20px 0 20px;
   nav li {
   padding: 0 10px 0 10px;
   }
-
-  }
-
-
-  /* For screens sizes from 480x wide and down */
-@media screen and (max-width: 481px){
-  #welcome{
-    height: 300px;
-  }
   
-  #welcome h1 {
-    padding-top: 20px; 
-  }
-  
-  
-  nav li {
-  padding: 0 10% 0 10%;
+  footer > a{
+    padding: 0 5%;
   }
 
   }
 
-  /* For screens sizes from 320 wide and down */
-@media screen and (max-width: 320px){
+
+
+
+  /* For screens sizes from 380 wide and down */
+@media screen and (max-width: 380px){
   #welcome{
     height: 200x;
   }
