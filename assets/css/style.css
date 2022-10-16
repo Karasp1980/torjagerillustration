@@ -7,7 +7,6 @@
  
 }
 
-
 body{
   
     font-family: 'Oswald', sans-serif;
@@ -23,12 +22,11 @@ body{
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     background-image: url("../images/vasen.jpeg");
-    background-size: 40%;
+    background-size: 30%;
     background-repeat: no-repeat;   
 }
 
-
-  /* nav bar*/
+/* nav bar*/
   
   nav{
     border: groove;
@@ -47,7 +45,7 @@ body{
       line-height: 40px;
       display: inline-block;
       color: white;
-      padding: 0 120px 0 120px; 
+      padding: 0 10% 0 10%; 
       margin: 0;
     }
      
@@ -62,23 +60,22 @@ body{
       color: #A43F2D;
     }
 
-        /*welcome section*/
+  /*welcome section*/
 
         #welcome{
-          background-image: url("/assets/images/ww1.jpeg");
           background-size: cover;
           background-position: center;
-          height: 950px;
-          max-width: 100%;
-         
+          text-align: center;
           
+   
     
           /* Animates zoom effect on loading the page */
           animation-name: welcome-zoom;
           animation-duration: 5s;
           animation-fill-mode: forwards;
         }
-      
+
+       
       
       /* Creates the level of zoom for welcome image */
       @keyframes welcome-zoom {
@@ -88,68 +85,73 @@ body{
           to{
               transform: scale(1.0);
           }
-          
+
+
       }
-      #welcome h1 {
+
+      #welcome > img {
+        height: auto;
+        width: 100%;
+      }
+
+      /*#welcometext{
         text-align: center;
         padding-top: 120px;
         font-size: 300%;
-        color: white;
-        
-      }
+        color: red;      
+      }*/
 
 /* books section*/
 
 #books{
   height: auto;
-  margin: 0 100px 0 100px;
+  margin: 10%;
   padding-top: 0;
   display: flex;
   justify-content: space-around;
-  
+ 
 }
 
 #books div {
   color: #A43F2D;
   text-align: center;
   padding: 0;
+  width: 100%;
 }
 
 
-
 .lyktgubben{
-  /*background: url("../images/lyktgubben.jpeg") no-repeat center center;*/
+
   width: 33%;
 }
 
 .bestar{
-  /*background: url("../images/bestar.jpeg") no-repeat center center;*/
+
   width: 33%;
 }
 
 .vasenivartid{
- /*background: url("../images/vasen-i-var-tid.jpeg") no-repeat center center;*/
+
  width: 33%;
 }
 
 #books h4{
-  padding-top: 10%;
+  padding: 10%;
 }
      
 
-
-   /* about section*/
+/* about section*/
 
    #about{
     height: auto;
     background-color: #A43F2D;
     border: 5px groove;
     color: white;
-    margin: 100px;
+    margin: 5%;
     padding-top: 0;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 60px;
+    padding-bottom: 3%;
  }
 
  #left-about{
@@ -173,20 +175,20 @@ body{
  }
 
  .right-about-text, .center-about-text{
-    margin-top: 120px;
+    margin-top: 25%;
     width: 80%;
-    /*float: left;*/
-    line-height: 20px;
-    margin-bottom: 40px;
+    line-height: 130%;
+    
     text-align: left;
     font-family: 'Lato', sans-serif;
-  
  }
+
 
  #description{
     text-align: center;
     padding-bottom: 5%;
     font-size: 150%;
+    padding-left: 5%;
  }
 
  #circle-container{
@@ -205,11 +207,10 @@ body{
     border-radius: 50%;
  }
 
-
     
   
     
-    /*footer*/
+/*footer*/
   
   footer {
       color:white;
@@ -222,13 +223,12 @@ body{
       right: 0;
       z-index: 4;
       border: groove;
-      height: 5%;
+      height: 4%;
   }
 
   
   footer > span {
     font-size: 100%;
-    /*text-align: right;*/
   
   }
   
@@ -236,30 +236,30 @@ body{
     color: white;
     text-decoration: none;
     padding: 0 10%;
-    font-size: 100%;
+    font-size: 120%;
   }
 
   footer > p {
   
     font-size: 50%;
     text-align: center;
-    padding-top: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 0;
   }
   
   
- /* Gallery Photos */
+/* Gallery Photos */
 
 #photo {
   clear: both;
   line-height: 0;
-  column-count: 2;
+  column-count: 3;
   column-gap: 0px;
 }
 
 #photo img{
   width: 100%;
 }
-
 
  /*contact section*/
 
@@ -268,7 +268,8 @@ body{
   background: url("../images/jatten.jpeg");
   background-size: cover;
   background-position: center;
-  height: 1700px; 
+  height: 1700px;
+  
   
   
     /* Animates zoom effect on loading the page */
@@ -276,7 +277,6 @@ body{
     animation-duration: 1s;
     animation-fill-mode: forwards;
   }
-
 
 /* Creates the level of zoom for giant image */
 @keyframes giant-zoom {
@@ -290,7 +290,7 @@ body{
 }
 
   
-  /* contact form*/
+/* contact form*/
  
  .contact-form {
   margin: 10% 10% 0 0px;
@@ -344,7 +344,6 @@ body{
   width: 100%;
 }
 
-
 input[type=submit] {
 margin-top: 20px;
 margin-left: 0.75rem;
@@ -356,15 +355,14 @@ border-radius: 7px;
 }
 
 
+
 /* For screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
   .header-background{
     background-image: none;     
 }
 
-#welcome{
-  height: 600px;
-}
+
 
 #welcome h1 {
   font-size: 120%;
@@ -388,9 +386,7 @@ padding: 0 60px 0 60px;
 /* For screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-  #welcome{
-    height: 500px;
-  }
+
 
   #welcome h1 {
     font-size: 100%;
@@ -407,12 +403,9 @@ padding: 0 60px 0 60px;
     }
 
     #books div{
-      padding: 2%;
+      padding: 10%;
     }
-
-    .lyktgubben, .bestar, .vasenivartid{
-      padding: 5%;
-    }
+   
 
   #about{
   flex-direction: column;
@@ -437,6 +430,7 @@ padding: 0 60px 0 60px;
   text-align: center;
   margin: 0;
   padding: 0;
+  line-height: 150%;
  }
 
   #circle-containe{
@@ -449,11 +443,9 @@ padding: 0 60px 0 60px;
 
 /* For screens sizes from 768x wide and down */
 @media screen and (max-width: 768px){
-#welcome{
-  height: 480px;
-}
 
-#welcome h1 {
+
+#welcome h2 {
   padding-top: 50px; 
 }
 
@@ -466,7 +458,7 @@ padding: 0 20px 0 20px;
 }
 
 #books h4{
-  padding-top: 0;
+  padding-top:5%;
 }
 
 #photo{
@@ -480,22 +472,18 @@ padding: 0 20px 0 20px;
 
 
 
-
 footer > a{
   padding: 0 8%;
 }
-
 
 
 }
 
 /* For screens sizes from 480x wide and down */
 @media screen and (max-width: 481px){
-  #welcome{
-    height: 300px;
-  }
   
-  #welcome h1 {
+  
+  #welcome h2 {
     padding-top: 20px; 
   }
   
@@ -508,17 +496,13 @@ footer > a{
     padding: 0 5%;
   }
 
-
   }
-
 
 
 
   /* For screens sizes from 380 wide and down */
 @media screen and (max-width: 380px){
-  #welcome{
-    height: 200px;
-  }
+  
   
    
   nav li {
