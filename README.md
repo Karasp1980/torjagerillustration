@@ -2,7 +2,7 @@
 
 # Welcome to Tor Jäger Illustration,
 
-#### This website is created for the freelance illustrator Tor Jäger. The previous website torjager.net/torjager.se really needed some updates and a new fresh apporoach. Tor Jäger is based in Stockholm, Sweden, but clients could come from over the world so the site should be easy to read and inspiering. The goal of this site is to attract and connect with possible customers for illustration jobs, inspire people to read the books but also just inspire peolple scrolling through the site.
+#### This website is created for the freelance illustrator Tor Jäger. The previous website torjager.net/torjager.se really needed some updates and a new fresh apporoach. Tor Jäger is based in Stockholm, Sweden, but clients could come from over the world so the site should be easy to read and inspiering. The goal of this site is to attract and connect with possible customers for illustration jobs, inspire people to read the books but also just inspire peolple who are scrolling through the site.
 
 ------
 ## Responsive
@@ -60,8 +60,8 @@ The link can be found here:
 
 ## Credits
 
-#### A lot of content is reused from torjager.se, for instance som pictures and the about-text. Furhter material/pictures has been provided from the illustrator himself who has also given his appproval of using the material for this project. Some of the pictures are also published in his books.
-#### Inspiration has also come from the Code Institute projects Coders coffeehouse (https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html#home) and Love Running
+#### A lot of content is reused from torjager.se/torjager.net, for instance som pictures and the about-text. Furhter material/pictures has been provided from the illustrator himself who has also given his appproval of using the material for this project. Some of the pictures are also published in his books.
+#### Inspiration and help has also come from the Code Institute projects "Coders coffeehouse" (https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html#home) and "Love Running" (https://karasp1980.github.io/love-running/).
 
 ----
 

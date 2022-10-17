@@ -29,7 +29,7 @@ body{
 /* nav bar*/
   
 nav{
-  border: groove;
+  border: 5px groove;
   background-color: #A43F2D;
   color: white;
   font-size: 100%;
@@ -102,17 +102,20 @@ nav ul {
 
       }
 
-      #welcome > img {
+      #welcomeimage {
         height: auto;
-        width: 100%;
+        width: 100%;    
       }
 
-      /*#welcometext{
+
+      #welcometext{
         text-align: center;
-        padding-top: 120px;
+        padding: 0;
         font-size: 300%;
-        color: red;      
-      }*/
+        color: #A43F2D;
+        margin: 0;   
+      } 
+      
 
 /* books section*/
 
@@ -122,7 +125,6 @@ nav ul {
   padding-top: 0;
   display: flex;
   justify-content: space-around;
- 
 }
 
 #books div {
@@ -149,7 +151,12 @@ nav ul {
 }
 
 #books h4{
-  padding: 10%;
+  padding: 5%;
+}
+
+#books h5{
+  font-family: 'Lato', sans-serif;
+  padding: 5% 10% 5% 10%;
 }
      
 
@@ -235,7 +242,7 @@ nav ul {
       bottom: 0;
       right: 0;
       z-index: 4;
-      border: groove;
+      border: 5px groove;
       height: 4%;
   }
 
@@ -385,7 +392,7 @@ border-radius: 7px;
 /* For screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-/*
+
   nav ul{
     flex-direction: column;
   }
@@ -393,7 +400,11 @@ border-radius: 7px;
   nav ul li{
     text-align: center;
   }
-  */
+
+  nav li {
+    border: 0.5px groove;
+  }
+  
   
   #books{
     flex-direction: column;
@@ -451,11 +462,6 @@ border-radius: 7px;
 @media screen and (max-width: 768px){
 
 
-
-/*nav li {
-padding: 0 20px 0 20px;
-}*/
-
 #books h4{
   padding-top:5%;
 }
@@ -479,10 +485,6 @@ footer > a{
 /* For screens sizes from 480x wide and down */
 @media screen and (max-width: 481px){
   
-  
-  /*nav li {
-  padding: 0 10px 0 10px;
-  }*/
   
   footer > a{
     padding: 0 5%;
