@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   border: none;
- 
 }
 
 body{
@@ -26,39 +25,53 @@ body{
     background-repeat: no-repeat;   
 }
 
+
 /* nav bar*/
   
-  nav{
-    border: groove;
+nav{
+  border: groove;
+  background-color: #A43F2D;
+  color: white;
+  font-size: 100%;
+  line-height: 250%;
+  transition: all .3s ease-in-out;  
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
   }
   
-  nav ul {
-      list-style: none;
-      background-color: #A43F2D;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-    }
+  nav li {
     
-    nav li {
-      font-size: 1em;
-      line-height: 40px;
-      display: inline-block;
-      color: white;
-      padding: 0 10% 0 10%; 
-      margin: 0;
-    }
-     
-    nav a {
-      text-decoration: none;
-      color: white;
-      display: block;
-    }
-    
-    nav a:hover {
-      background-color:white;
-      color: #A43F2D;
-    }
+    padding: 0 10% 0 10%; 
+    margin: 0;
+    flex: auto;
+  }
+   
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav li:hover{
+    background-color:white; 
+    color:#A43F2D;
+  }
+
+  nav li:hover > a{
+    color:#A43F2D;
+  }
+
+
+
+
+
+
 
   /*welcome section*/
 
@@ -105,7 +118,7 @@ body{
 
 #books{
   height: auto;
-  margin: 10%;
+  margin: 5%;
   padding-top: 0;
   display: flex;
   justify-content: space-around;
@@ -363,20 +376,6 @@ border-radius: 7px;
 }
 
 
-
-#welcome h1 {
-  font-size: 120%;
-  padding-top: 60px; 
-}
-
-.header-background{
-background-image: none;
-}
-
-nav li {
-padding: 0 60px 0 60px;
-}
-
 #about{
   margin: 2%;
   }
@@ -386,13 +385,15 @@ padding: 0 60px 0 60px;
 /* For screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-
-
-  #welcome h1 {
-    font-size: 100%;
-    padding-top: 50px; 
+/*
+  nav ul{
+    flex-direction: column;
   }
-
+  
+  nav ul li{
+    text-align: center;
+  }
+  */
   
   #books{
     flex-direction: column;
@@ -402,8 +403,13 @@ padding: 0 60px 0 60px;
 
     }
 
-    #books div{
-      padding: 10%;
+    #books div { 
+      padding: 5%;
+     
+    }
+
+    #books h4{
+      padding: 2%;
     }
    
 
@@ -445,17 +451,10 @@ padding: 0 60px 0 60px;
 @media screen and (max-width: 768px){
 
 
-#welcome h2 {
-  padding-top: 50px; 
-}
 
-.header-background{
-background-image: none;
-}
-
-nav li {
+/*nav li {
 padding: 0 20px 0 20px;
-}
+}*/
 
 #books h4{
   padding-top:5%;
@@ -470,8 +469,6 @@ padding: 0 20px 0 20px;
 }
 
 
-
-
 footer > a{
   padding: 0 8%;
 }
@@ -483,14 +480,9 @@ footer > a{
 @media screen and (max-width: 481px){
   
   
-  #welcome h2 {
-    padding-top: 20px; 
-  }
-  
-  
-  nav li {
+  /*nav li {
   padding: 0 10px 0 10px;
-  }
+  }*/
   
   footer > a{
     padding: 0 5%;
@@ -502,7 +494,6 @@ footer > a{
 
   /* For screens sizes from 380 wide and down */
 @media screen and (max-width: 380px){
-  
   
    
   nav li {
