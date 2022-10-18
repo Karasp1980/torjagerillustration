@@ -1,4 +1,4 @@
-![CI logo](./assets/images/ww1.jpeg)
+![Tor Jäger Welcome][def]
 
 # Welcome to Tor Jäger Illustration,
 
@@ -13,7 +13,30 @@
 
 ## Features
 
-####
+### Heading
+#### The heding should be standing out and be easy to read. With a red text color for the title with a white background the text is easy to read. 
+
+### Navbar
+#### The navbar should also be easy to see and use and is therefore placed in a classic way under the title, taking up the whole width. The colors on the text/background are also switched when hover over the navbar.
+
+### Welcome image
+#### The welcome section includes an image with a zoom-effect giving the viewer a fist interest of exploring the site further and also an example of illustration work.
+
+### Books
+#### The books-section presents three books which the illustrator has written/illustrated. The purpose should be to inspire to get inspired by a short presentation and get interest in reading these books.
+
+### About
+#### The about section presents a short presentation of the illustrator including education and experience.
+
+### Gallery
+#### The gallery section is an important part of a freelance illustrators website and should present a variety of work/styles and give the viewer a sence of what style and pictures could be expected. It is presented with different styles of pictures; from book-covers to sketches and also images from books.
+
+### Contact
+#### The contact section should make it easy to contact the illustrator and includes a contact-form where you could send a message. The background-image also has a zoom-effect in order to get an animation feeling.
+
+## Footer
+#### The footer placed in the bottom of the page should also be standing in order for the viewer to easily get info about facebook, instagram and linkedin for further connection and info there.
+
 -------
 ## Testing
 
@@ -41,6 +64,9 @@
 ### Accessability:
 #### I confirmed that the colors and fonts chosen are easy to read and accesible through lighthouse in devtools.
 
+### Lighthouse
+#### The performance was tested in Lighthouse:
+![Lighthouse performance](/assets/images/lighthouse.jpeg)
 -----
 
 ## Unfixed bugs
@@ -74,4 +100,10 @@ The link can be found here:
 
 ## Media
 
+#### All the images on this page are provided by the illustator himself. For the social media-links icons Fontawesome.com has been used.
+
 -----
+
+
+[def]: ./assets/images/ww1full.jpeg
+[def2]: /assets/images/Lighthouse.jpeg

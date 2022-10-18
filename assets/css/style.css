@@ -277,6 +277,7 @@ nav ul {
   line-height: 0;
   column-count: 3;
   column-gap: 0px;
+  margin-bottom: 5%;
 }
 
 #photo img{
@@ -376,6 +377,8 @@ color: white;
 border: groove;
 border-radius: 7px;
 }
+
+
 
 
 
