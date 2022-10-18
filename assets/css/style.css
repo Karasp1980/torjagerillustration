@@ -152,12 +152,15 @@ nav ul {
 
 #books h4{
   padding: 5%;
+  text-transform: uppercase;
 }
 
 #books h5{
   font-family: 'Lato', sans-serif;
-  padding: 5% 10% 5% 10%;
+  font-weight: bolder;
+  padding: 3% 10% 3% 10%;
 }
+
      
 
 /* about section*/
@@ -167,7 +170,7 @@ nav ul {
     background-color: #A43F2D;
     border: 5px groove;
     color: white;
-    margin: 5%;
+    margin: 5% 5% 200px 5%;
     padding-top: 0;
     display: flex;
     justify-content: space-around;
@@ -197,8 +200,7 @@ nav ul {
  .right-about-text, .center-about-text{
     margin-top: 25%;
     width: 80%;
-    line-height: 130%;
-    
+    line-height: 130%;  
     text-align: left;
     font-family: 'Lato', sans-serif;
  }
@@ -243,7 +245,7 @@ nav ul {
       right: 0;
       z-index: 4;
       border: 5px groove;
-      height: 4%;
+      height: 6%;
   }
 
   
@@ -263,7 +265,7 @@ nav ul {
   
     font-size: 50%;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 0.5%;
     padding-bottom: 0;
   }
   
@@ -289,6 +291,7 @@ nav ul {
   background-size: cover;
   background-position: center;
   height: 1700px;
+
   
   
   
@@ -383,9 +386,7 @@ border-radius: 7px;
 }
 
 
-#about{
-  margin: 2%;
-  }
+
 
 }
 
@@ -429,7 +430,8 @@ border-radius: 7px;
   margin: 1%;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding: 0 0 10% 0;
+  margin-bottom: 20%;
   }
   
   #center-about, #right-about{  
