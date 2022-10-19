@@ -7,9 +7,15 @@
 ------
 ## Responsive
 
-#### 
+#### The Site is made responsive
 
 ------
+## Style
+
+#### The colors were chosen in order to have a good contrast between the white and #A43F2D chosen (+ the groove border) in order to make the site easy to read. The readibility was also checked on This site was built using [WebAIM](https://webaim.org/resources/contrastchecker) 
+![WebAIM contrastchecker](/assets/images/webaim.png)
+
+----
 
 ## Features
 
@@ -65,8 +71,10 @@
 #### I confirmed that the colors and fonts chosen are easy to read and accesible through lighthouse in devtools.
 
 ### Lighthouse
-#### The performance was tested in Lighthouse:
-![Lighthouse performance](/assets/images/lighthouse.jpeg)
+#### The performance was tested in Lighthouse to be good, with a prestanda of 99%:
+![Lighthouse performance](/assets/images/lighthouse.jpg)
+
+
 -----
 
 ## Unfixed bugs
@@ -100,10 +108,9 @@ The link can be found here:
 
 ## Media
 
-#### All the images on this page are provided by the illustator himself. For the social media-links icons Fontawesome.com has been used.
+#### All the images on this page are provided by the illustator Tor Jäger For the social media-links icons Fontawesome.com has been used.
 
 -----
 
 
 [def]: ./assets/images/ww1full.jpeg
-[def2]: /assets/images/Lighthouse.jpeg

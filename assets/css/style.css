@@ -245,20 +245,23 @@ nav ul {
       right: 0;
       z-index: 4;
       border: 5px groove;
-      height: 6%;
+     height: auto;
+    
   }
 
   
   footer > span {
     font-size: 100%;
-  
+    padding: 0 5%; 
+    
   }
   
   footer > a {
     color: white;
     text-decoration: none;
-    padding: 0 10%;
+    padding: 0 5%;
     font-size: 120%;
+    
   }
 
   footer > p {
@@ -267,6 +270,7 @@ nav ul {
     text-align: center;
     padding-top: 0.5%;
     padding-bottom: 0;
+    
   }
   
   
@@ -461,6 +465,12 @@ border-radius: 7px;
  
   }
 
+  footer > span {
+    font-size: 80%;
+    padding: 0 2%; 
+    
+  }
+
 }
 
 /* For screens sizes from 768x wide and down */
@@ -480,31 +490,41 @@ border-radius: 7px;
 }
 
 
-footer > a{
-  padding: 0 8%;
-}
 
 
 }
 
-/* For screens sizes from 480x wide and down */
-@media screen and (max-width: 481px){
+/* For screens sizes from 615x wide and down */
+@media screen and (max-width: 615px){
   
-  
-  footer > a{
-    padding: 0 5%;
+  footer > span {
+    font-size: 60%;
+    padding: 0 0.5%;    
+  }
+
+  footer > a {
+    font-size: 80%;
+    padding 0 0.5%;
+        
   }
 
   }
 
+    /* For screens sizes from 480 wide and down */
+@media screen and (max-width: 480px){
 
-
-  /* For screens sizes from 380 wide and down */
-@media screen and (max-width: 380px){
-  
-   
-  nav li {
-  padding: 0;
+  footer > span {
+    font-size: 60%;
+    padding: 0 1%;    
   }
 
+  footer > a {
+    padding: 0;
+        
   }
+  footer > p {
+    font-size: 50%;
+        
+  }
+}
+
