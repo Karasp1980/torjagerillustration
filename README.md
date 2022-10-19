@@ -108,7 +108,7 @@ The link can be found here:
 
 ## Media
 
-#### All the images on this page are provided by the illustator Tor Jäger For the social media-links icons Fontawesome.com has been used.
+#### All the images on this page are provided by the illustator Tor Jäger For the social media-links icons [Font Awesome](https://fontawesome.com) has been used.
 
 -----
 
