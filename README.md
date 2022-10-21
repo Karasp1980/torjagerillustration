@@ -35,7 +35,7 @@
 #### The about section presents a short presentation of the illustrator including education and experience.
 
 ### Gallery
-#### The gallery section is an important part of a freelance illustrators website and should present a variety of work/styles and give the viewer a sence of what style and pictures could be expected. It is presented with different styles of pictures; from book-covers to sketches and also images from books.
+#### The gallery section is an important part of a freelance illustrators website and should present a variety of work/styles and give the viewer a sence of what style and pictures could be expected. Both regarding job enquieries but also for viewers to get a glance of the style to expect when reading the books. The gallery is presented with different styles of pictures; from book-covers to sketches and also images from books.
 
 ### Contact
 #### The contact section should make it easy to contact the illustrator and includes a contact-form where you could send a message. The background-image also has a zoom-effect in order to get an animation feeling.
@@ -96,6 +96,8 @@ The link can be found here:
 
 #### A lot of content is reused from torjager.se/torjager.net, for instance som pictures and the about-text. Furhter material/pictures has been provided from the illustrator himself who has also given his appproval of using the material for this project. Some of the pictures are also published in his books.
 #### Inspiration and help has also come from the Code Institute projects "Coders coffeehouse" (https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html#home) and "Love Running" (https://karasp1980.github.io/love-running/).
+
+#### The website [W3Schools](https://www.w3schools.com/) has also been helpful.
 
 ----
 

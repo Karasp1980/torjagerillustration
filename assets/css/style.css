@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
 *{
   margin: 0;
@@ -12,6 +12,7 @@ body{
     color: #A43F2D;
     background-color: white;
     letter-spacing: 5px;
+    overflow-x: hidden;
   }
   
   .header-background{
@@ -108,13 +109,6 @@ nav ul {
       }
 
 
-      #welcometext{
-        text-align: center;
-        padding: 0;
-        font-size: 300%;
-        color: #A43F2D;
-        margin: 0;   
-      } 
       
 
 /* books section*/
@@ -125,6 +119,7 @@ nav ul {
   padding-top: 0;
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
 
 #books div {
@@ -132,22 +127,14 @@ nav ul {
   text-align: center;
   padding: 0;
   width: 100%;
+  align-items: center;
 }
 
 
-.lyktgubben{
+.lyktgubben, .bestar, .vasenivartid{
 
   width: 33%;
-}
-
-.bestar{
-
-  width: 33%;
-}
-
-.vasenivartid{
-
- width: 33%;
+  text-align: center;  
 }
 
 #books h4{
@@ -157,8 +144,9 @@ nav ul {
 
 #books h5{
   font-family: 'Lato', sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   padding: 3% 10% 3% 10%;
+  text-align: center;
 }
 
      
@@ -170,11 +158,12 @@ nav ul {
     background-color: #A43F2D;
     border: 5px groove;
     color: white;
-    margin: 5% 5% 200px 5%;
+    margin: 5% 5% 15% 5%;
     padding-top: 0;
     display: flex;
     justify-content: space-around;
     padding-bottom: 3%;
+    text-align: center;
  }
 
  #left-about{
@@ -183,34 +172,29 @@ nav ul {
   
  }
 
- #center-about{
+ #center-about, #right-about{
   
     padding-top: 0;
     width: 33%;
 
  }
 
- #right-about{
-    padding-top: 0;
-    width: 33%;
-    
-    
- }
 
  .right-about-text, .center-about-text{
-    margin-top: 25%;
-    width: 80%;
-    line-height: 130%;  
-    text-align: left;
-    font-family: 'Lato', sans-serif;
- }
+  margin-top: 15%;
+  width: 80%;
+  line-height: 200%;  
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+}
+
 
 
  #description{
     text-align: center;
     padding-bottom: 5%;
     font-size: 150%;
-    padding-left: 5%;
+    padding-left: 3%;
  }
 
  #circle-container{
@@ -245,7 +229,7 @@ nav ul {
       right: 0;
       z-index: 4;
       border: 5px groove;
-     height: auto;
+      height: auto;
     
   }
 
@@ -264,6 +248,7 @@ nav ul {
     
   }
 
+
   footer > p {
   
     font-size: 50%;
@@ -272,7 +257,8 @@ nav ul {
     padding-bottom: 0;
     
   }
-  
+
+
   
 /* Gallery Photos */
 
@@ -327,7 +313,7 @@ nav ul {
   max-width: 400px;
   position: absolute;
   left: 10%;
-  padding: 30px;
+  padding: 3%;
 }
 
 .contact-form > h2 {
@@ -416,14 +402,11 @@ border-radius: 7px;
   
   #books{
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 
     }
 
     #books div { 
-      padding: 5%;
+     padding: 5% 0 5% 0;
      
     }
 
@@ -439,31 +422,37 @@ border-radius: 7px;
   align-items: center;
   padding: 0 0 10% 0;
   margin-bottom: 20%;
+  text-align: center;
   }
   
   #center-about, #right-about{  
     width: 100%; 
-    margin-left: 10%; 
+    text-align: center;
     
  }
 
  #left-about{
   width: 100%;
   margin-bottom: 5%;
+  text-align: center;
  }
 
  .left-about-text, .center-about-text, .right-about-text{
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0 5% 0 5%;
+  padding-left: 0;
   line-height: 150%;
+  width: auto;
  }
 
-  #circle-containe{
+  #circle-container{
     width: 200px;
-    height: 200px;  
- 
+    height: 200px; 
   }
+
+  #description{
+    padding-top: 3%;
+ }
 
   footer > span {
     font-size: 80%;
@@ -478,7 +467,7 @@ border-radius: 7px;
 
 
 #books h4{
-  padding-top:5%;
+  padding-top: 5%;
 }
 
 #photo{
@@ -486,7 +475,8 @@ border-radius: 7px;
 }
 
 .contact-form{
-  width: 70%;
+  width: auto;
+ 
 }
 
 
@@ -504,7 +494,7 @@ border-radius: 7px;
 
   footer > a {
     font-size: 80%;
-    padding 0 0.5%;
+    padding: 0 0.5%;
         
   }
 
