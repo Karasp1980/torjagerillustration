@@ -9,6 +9,31 @@
 
 #### The Site is made responsive
 
+
+## Wireframes
+
+### **index.html**
+
+#### Desktop
+![Wireframe index.html](/assets/images/wireframeindex.jpeg)
+
+#### Mobile
+![Wireframe  index.html mobile](/assets/images/wireframeindexmobile.jpeg)
+
+### **gallery.html**
+
+#### Desktop
+![Wireframe  gallery.html](/assets/images/wireframegallery.jpeg)
+
+#### Mobile
+![Wireframe  gallery.html mobile](/assets/images/wireframegallerymobile.jpeg)
+
+### **contact.html**
+#### Desktop
+![Wireframe  contact.html](/assets/images/wireframecontact.jpeg)
+#### Mobile
+![Wireframe  contact.html mobile](/assets/images/wireframecontactmobile.jpeg)
+
 ------
 ## Style
 
