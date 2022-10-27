@@ -1,8 +1,8 @@
 ![Tor Jäger Welcome][def]
 
-# Welcome to Tor Jäger Illustration,  
+# Welcome to Tor Jäger Illustration!
 
-#### This website is created for the freelance illustrator Tor Jäger. The previous website torjager.net/torjager.se really needed some updates and a new fresh apporoach. Tor Jäger is based in Stockholm, Sweden, but clients could come from over the world so the site should be easy to read and inspiering. The goal of this site is to attract and connect with possible customers for illustration jobs, inspire people to read the books but also just inspire peolple who are scrolling through the site.
+#### This website is created for the freelance illustrator Tor Jäger. The previous website torjager.net/torjager.se really needed some updates and a new fresh apporoach. Tor Jäger is based in Stockholm, Sweden, but clients could come from all over the world so the site should be easy to read and inspiering. The goal of this site is to attract and connect with possible customers for illustration jobs, inspire people to read the books but also just inspire peolple who are scrolling through the site.
 #### [Deployed site](https://karasp1980.github.io/torjagerillustration/)
 ------
 ## Responsive
@@ -40,7 +40,7 @@
 ------
 ## Style
 
-#### The colors were chosen in order to have a good contrast between the white and #A43F2D chosen (+ the groove border) in order to make the site easy to read. The readibility was also checked on This site was built using [WebAIM](https://webaim.org/resources/contrastchecker) 
+#### The colors were chosen in order to have a good contrast between the white and #A43F2D chosen (+ the groove border) in order to make the site easy to read. The readibility was also checked on  [WebAIM](https://webaim.org/resources/contrastchecker) 
 ![WebAIM contrastchecker](/assets/images/webaim.png)
 
 ----
@@ -59,7 +59,7 @@
 ![Welcome image](/assets/images/welcome.jpeg)
 
 ### **Books:**
-#### The books-section presents three books which the illustrator has written/illustrated. The purpose should be to inspire to get inspired by a short presentation and get interest in reading these books.
+#### The books-section presents three books which the illustrator has written/illustrated. The purpose should be to get inspired by a short presentation and get interest in reading these books.
 ![Books section](/assets/images/bookssection.jpeg)
 
 ### **About:**
@@ -76,7 +76,7 @@
 
 
 ### **Footer:**
-#### The footer placed in the bottom of the page should also be standing in order for the viewer to easily get contact info. It contains links to the social media platforms facebook, instagram and linkedin as well as phone number.
+#### The footer placed in the bottom of the page should also be standing out in order for the viewer to easily get contact info. It contains links to the social media platforms facebook, instagram and linkedin as well as phone number.
 ![Footer](/assets/images/footer.jpg)
 
 -------
@@ -89,11 +89,6 @@
 #### I confirmed that the navigaton, header, about, gallery and contact are all readable and easy to understand.
 
 #### I confirmed that the form works requires entries in every field, will only accept one email in the email field and the submit buttom works.
-
--------
-
-## Bugs
-#### No bugs were noticed.
 
 ------
 
@@ -130,15 +125,6 @@ The link can be found here: [Deployed site](https://karasp1980.github.io/torjage
 
 -----
 
-## Credits
-
-#### A lot of content is reused from torjager.se/torjager.net, for instance som pictures and the about-text. Furhter material/pictures has been provided from the illustrator himself who has also given his appproval of using the material for this project. Some of the pictures are also published in his books.
-#### Inspiration and help has also come from the Code Institute projects "Coders coffeehouse" (https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html#home) and "Love Running" (https://karasp1980.github.io/love-running/).
-
-#### The website [W3Schools](https://www.w3schools.com/) has also been helpful.
-
-----
-
 ## Content
 
 #### The pictures on the site and in the gallery has been chosen in order to provide a variety of styles.
@@ -148,9 +134,18 @@ The link can be found here: [Deployed site](https://karasp1980.github.io/torjage
 
 ## Media
 
-#### All the images on this page are provided by the illustator Tor Jäger For the social media-links icons [Font Awesome](https://fontawesome.com) has been used.
+#### All the images on this page are provided by the illustator Tor Jäger For the social media-links icons [Font Awesome](https://fontawesome.com) has been used. The fonts come from [Google fonts](fonts.google.com).
 
 -----
+
+## Credits
+
+#### A lot of content is reused from torjager.se/torjager.net, for instance som pictures and the about-text. Furhter material/pictures has been provided from the illustrator Tor Jäger who has also given his appproval of using the material for this project. Some of the pictures are also published in his books.
+#### Inspiration and help has also come from the Code Institute projects [Coders coffeehouse](https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html#home) and [Love Running](https://karasp1980.github.io/love-running/).
+
+#### The website [W3Schools](https://www.w3schools.com/) has also been helpful.
+
+----
 
 
 [def]: ./assets/images/ww1full.jpeg
