@@ -1,18 +1,20 @@
 ![Tor Jäger Welcome][def]
 
-# Welcome to Tor Jäger Illustration, [Deployed site]()
+# Welcome to Tor Jäger Illustration,  
 
 #### This website is created for the freelance illustrator Tor Jäger. The previous website torjager.net/torjager.se really needed some updates and a new fresh apporoach. Tor Jäger is based in Stockholm, Sweden, but clients could come from over the world so the site should be easy to read and inspiering. The goal of this site is to attract and connect with possible customers for illustration jobs, inspire people to read the books but also just inspire peolple who are scrolling through the site.
-
+#### [Deployed site](https://karasp1980.github.io/torjagerillustration/)
 ------
 ## Responsive
 
-#### The Site is made responsive
+#### The Site is made responsive and checked through [Am I responsive](https://ui.dev/amiresponsive?url=https://karasp1980.github.io/torjagerillustration/)
+![Responsive](/assets/images/responsive.jpeg)
 ----
 
 
 ## Wireframes
 
+#### Wireframes were made by using [Balsamiq](https://balsamiq.com/)
 ### **index.html**
 
 #### Desktop
@@ -98,19 +100,16 @@
 ## Validator testing
 
 ### HTML:
-#### No errors were returned when passed through the official W3C validator.
-[W3 validator for contact.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkarasp1980-torjagerillu-wajv61dbb1f.ws-eu72.gitpod.io%2F#textarea)
-
+#### No errors were returned when passed through the official W3C validator
+[W3 validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkarasp1980.github.io%2Ftorjagerillustration%2F)
+![W3 validator](/assets/images/w3validator.jpg)
 ### CSS:
-#### No errors were returned when passed through the official W3C validator.
+#### No errors were returned when style.css passed through the official W3C validator.
 [Jigsaw W3 validator for style.css](https://jigsaw.w3.org/css-validator)
-![W3 validator for style.css](/assets/images/jigsaww3stylecss.jpeg)
+![Jigsaw W3 validator](/assets/images/jigsaww3stylecss.jpeg)
 
 ### Accessability:
 #### I confirmed that the colors and fonts chosen are easy to read and accesible through lighthouse in devtools.
-
-### Lighthouse
-#### The performance was tested in Lighthouse to be good, with a prestanda of 99%:
 ![Lighthouse performance](/assets/images/lighthouse.jpg)
 
 
@@ -127,7 +126,7 @@
 * In the Github repository, navigate to the settings tab. 
 * From the source section drop-down menu, select the Master branch.
 * Once the master branch has been selected, the page provided the link to the completed website. 
-The link can be found here:
+The link can be found here: [Deployed site](https://karasp1980.github.io/torjagerillustration/)
 
 -----
 

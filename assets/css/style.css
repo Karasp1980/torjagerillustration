@@ -511,11 +511,14 @@ padding: 3% 10% 3% 10%;
   }
 
   footer > a {
-    padding: 0;
-        
+    padding: 0;       
   }
+
   footer > p {
-    font-size: 50%;
-        
+    font-size: 50%;       
   }
 }
+}
+
+
+
