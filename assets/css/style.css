@@ -26,7 +26,6 @@ body{
     background-repeat: no-repeat;   
 }
 
-
 /* nav bar*/
   
 nav{
@@ -73,7 +72,6 @@ nav ul {
 
 
 
-
   /*welcome section*/
 
         #welcome{
@@ -100,7 +98,6 @@ nav ul {
               transform: scale(1.0);
           }
 
-
       }
 
       #welcomeimage {
@@ -108,12 +105,11 @@ nav ul {
         width: 100%;    
       }
 
-
       
 
 /* books section*/
 
-#books{
+.books{
   height: auto;
   margin: 5%;
   padding-top: 0;
@@ -122,7 +118,7 @@ nav ul {
   text-align: center;
 }
 
-#books div {
+.books div {
   color: #A43F2D;
   text-align: center;
   padding: 0;
@@ -130,25 +126,27 @@ nav ul {
   align-items: center;
 }
 
-
 .lyktgubben, .bestar, .vasenivartid{
 
   width: 33%;
   text-align: center;  
 }
 
-#books h4{
+.books h4{
   padding: 5%;
   text-transform: uppercase;
 }
 
-#books h5{
+.books h5{
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   padding: 3% 10% 3% 10%;
   text-align: center;
 }
 
+#bestar-text, #vasenivartid-text{
+  padding: 8% 10% 3% 10%;
+}
      
 
 /* about section*/
@@ -179,7 +177,6 @@ nav ul {
 
  }
 
-
  .right-about-text, .center-about-text{
   margin-top: 15%;
   width: 80%;
@@ -187,7 +184,6 @@ nav ul {
   text-align: left;
   font-family: 'Lato', sans-serif;
 }
-
 
 
  #description{
@@ -239,6 +235,10 @@ nav ul {
     padding: 0 5%; 
     
   }
+
+  #phonenumber{
+    font-size: 80%;
+  }
   
   footer > a {
     color: white;
@@ -248,7 +248,6 @@ nav ul {
     
   }
 
-
   footer > p {
   
     font-size: 50%;
@@ -257,7 +256,6 @@ nav ul {
     padding-bottom: 0;
     
   }
-
 
   
 /* Gallery Photos */
@@ -356,6 +354,7 @@ nav ul {
   margin-top: 10px;
   border: 1px solid white;
   width: 100%;
+  color: white;
 }
 
 input[type=submit] {
@@ -368,9 +367,11 @@ border: groove;
 border-radius: 7px;
 }
 
-
-
-
+/* For screens sizes from 1600px wide and down */
+@media screen and (max-width: 1600px){
+  .header-background{
+    background-size: 40%;   
+}
 
 /* For screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
@@ -378,14 +379,18 @@ border-radius: 7px;
     background-image: none;     
 }
 
+.books h5, #bestar-text{
+padding: 3% 10% 3% 10%;
+}
 
-
+#vasenivartid-text{
+  padding: 8% 10% 3% 10%;
+}
 
 }
 
 /* For screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
-
 
   nav ul{
     flex-direction: column;
@@ -400,18 +405,22 @@ border-radius: 7px;
   }
   
   
-  #books{
+  .books{
     flex-direction: column;
 
     }
 
-    #books div { 
+    .books div { 
      padding: 5% 0 5% 0;
      
     }
 
-    #books h4{
+    .books h4{
       padding: 2%;
+    }
+
+    #vasenivartid-text{
+      padding: 3% 10% 3% 10%;
     }
    
 
@@ -457,16 +466,14 @@ border-radius: 7px;
   footer > span {
     font-size: 80%;
     padding: 0 2%; 
-    
-  }
-
+    }
 }
+
 
 /* For screens sizes from 768x wide and down */
 @media screen and (max-width: 768px){
 
-
-#books h4{
+.books h4{
   padding-top: 5%;
 }
 
@@ -476,12 +483,7 @@ border-radius: 7px;
 
 .contact-form{
   width: auto;
- 
-}
-
-
-
-
+ }
 }
 
 /* For screens sizes from 615x wide and down */
@@ -517,4 +519,3 @@ border-radius: 7px;
         
   }
 }
-

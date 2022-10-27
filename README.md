@@ -1,6 +1,6 @@
 ![Tor Jäger Welcome][def]
 
-# Welcome to Tor Jäger Illustration,
+# Welcome to Tor Jäger Illustration, [Deployed site]()
 
 #### This website is created for the freelance illustrator Tor Jäger. The previous website torjager.net/torjager.se really needed some updates and a new fresh apporoach. Tor Jäger is based in Stockholm, Sweden, but clients could come from over the world so the site should be easy to read and inspiering. The goal of this site is to attract and connect with possible customers for illustration jobs, inspire people to read the books but also just inspire peolple who are scrolling through the site.
 
@@ -8,6 +8,7 @@
 ## Responsive
 
 #### The Site is made responsive
+----
 
 
 ## Wireframes
@@ -79,9 +80,9 @@
 -------
 ## Testing
 
-#### I tested that the site worked in different browsers: Google Chrome, Firefox
+#### I tested that the site worked in different browsers: Google Chrome, Firefox, Edge
 
-#### I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+#### I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar. The site has been tested on different physical devices: desktop, laptop, tablet and mobile.
 
 #### I confirmed that the navigaton, header, about, gallery and contact are all readable and easy to understand.
 
@@ -123,7 +124,7 @@
 ## Deployment
 
 #### This site was deployed to Github pages. The steps to deploy are as follows:
-* In the Github respiratories, navigate to the settings tab. 
+* In the Github repository, navigate to the settings tab. 
 * From the source section drop-down menu, select the Master branch.
 * Once the master branch has been selected, the page provided the link to the completed website. 
 The link can be found here:
